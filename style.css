@@ -8,6 +8,7 @@
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+/* SIDEBAR */
 .sidebar {
   position: fixed;
   left: 0px;
@@ -102,6 +103,7 @@ label #cancel {
   background: rgba(0, 0, 0, 0.7);
   height: 100vh;
 }
+/* NAVBAR */
 .navbar {
   position: fixed;
   height: 60px;
@@ -129,7 +131,7 @@ a:hover {
   border: 1px solid white;
   transition: 0.5s;
 }
-
+/* HOME */
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
 .hi1 {
   padding-left: 900px;
@@ -216,9 +218,10 @@ a:hover {
     border-right-color: transparent;
   }
 }
-.container-about{
+.containerdst{
   margin: 100px 30px 0px 30px;
 }
+/* ABOUT */
 #about{
   background: white;
   border: 1px solid white;
@@ -232,6 +235,7 @@ a:hover {
 #about h2 span {
   background: white; 
   font-family: monospace;
+  font-size: 25px;
   text-align: center;
   text-transform: uppercase;
   border: 2px solid #042331;
@@ -241,7 +245,7 @@ a:hover {
 }
 .gatra img{
   height: 25em;
-  margin: 80px;
+  margin: 0px 0px 80px 80px;
   padding: 5px;
   border: 5px inset rgb(58, 192, 92);
   border-radius: 5px;
@@ -250,7 +254,7 @@ a:hover {
 .dina img{
   height: 25em;
   float: right;
-  margin: 80px;
+  margin: 0px 80px 80px 0px;
   padding: 5px;
   border: 5px inset rgb(58, 192, 92);
   border-radius: 5px;
@@ -266,4 +270,113 @@ a:hover {
   100%{
     border: 5px inset rgb(58, 192, 92);
   }
+}
+.gatra{
+  border-bottom: 1px solid #317392;
+  padding-bottom: 60px;
+}
+.gatra i{
+  padding: 10px;
+  border: 5px solid #042331;
+  background-color: #042331;
+  color: white;
+}
+.gatra i:hover {
+  border: 5px solid #317392;
+  transition: 0.3s;
+  padding-left: 30px;
+}
+.gatra ul{
+  display: inline-block;
+  float: right;
+}
+.gatra li{
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.gatra ul, .gatra li{
+  margin: 0px 130px 40px 20px;
+  width: 350px;
+}
+.namag{
+  margin: 30px 30px 10px 80px;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #042331;
+  font-weight: bold;
+  width: 200px;
+}
+.aboutg{
+  display: inline;
+  float: right;
+  font-size: 15px;
+  margin-top: -330px;
+  margin-right: 63px;
+  width: 900px;
+}
+.dina{
+  border-bottom: 1px solid #000;
+  padding-bottom: 60px;
+}
+.dina i{
+  padding: 10px;
+  border: 5px solid #042331;
+  background-color: #042331;
+  color: white;
+}
+.dina i:hover {
+  border: 5px solid #317392;
+  transition: 0.3s;
+  padding-left: 30px;
+}
+.dina ul{
+  display: inline-block;
+  float: left;
+}
+.dina li{
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.dina ul, .dina li{
+  margin: 0px 130px 25px 20px;
+  width: 350px;
+}
+.namad {
+  text-align: right;
+  margin: 30px 80px 10px 0px;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #042331;
+  font-weight: bold;
+}
+.aboutd{
+  display: inline-block;
+  float: left;
+  font-size: 15px;
+  margin-left: 40px;
+  width: 900px;
+}
+.gatra{
+  border: 1px solid red;
+}
+#skill{
+  background: white;
+  border: 1px solid white;
+}
+#skill h2{
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #458eaf;
+  line-height: 0.1em;
+}
+#skill h2 span {
+  background: white; 
+  font-family: monospace;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid #042331;
+  border-radius: 3px;
+  padding: 7px 10px;
+  width: 150px; 
 }
