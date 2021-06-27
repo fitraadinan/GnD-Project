@@ -24,10 +24,6 @@ body {
   background: #063146;
   user-select: none;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 885d74bd49b9d0ff3f9ddc2d9d6dab71e16351dd
 .sidebar img {
   height: 33px;
   padding: 12px 80px;
@@ -51,10 +47,6 @@ body {
 .sidebar ul a i {
   margin-right: 16px;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 885d74bd49b9d0ff3f9ddc2d9d6dab71e16351dd
 #check {
   display: none;
 }
@@ -64,10 +56,6 @@ label #cancel {
   border-radius: 3px;
   cursor: pointer;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 885d74bd49b9d0ff3f9ddc2d9d6dab71e16351dd
 label #btn {
   left: 100px;
   top: 8px;
@@ -78,10 +66,6 @@ label #btn {
 }
 label img {
   width: 40px;
-<<<<<<< HEAD
-=======
-  padding-left: 5px;
->>>>>>> 885d74bd49b9d0ff3f9ddc2d9d6dab71e16351dd
 }
 label #cancel {
   z-index: 1111;
@@ -91,10 +75,7 @@ label #cancel {
   color: #0a5275;
   padding: 4px 9px;
   transition: all 0.5s ease;
-<<<<<<< HEAD
   position: fixed;
-=======
->>>>>>> 885d74bd49b9d0ff3f9ddc2d9d6dab71e16351dd
 }
 #check:checked ~ .sidebar {
   left: -250px;
@@ -110,13 +91,8 @@ label #cancel {
 #check:checked ~ section {
   margin-left: 0px;
 }
-<<<<<<< HEAD
 #home {
   background: url(section1.jpg) no-repeat;
-=======
-section {
-  background: url(section.jpg) no-repeat;
->>>>>>> 885d74bd49b9d0ff3f9ddc2d9d6dab71e16351dd
   background-position: center top;
   background-size: cover;
   height: 100vh;
@@ -127,10 +103,7 @@ section {
   height: 100vh;
 }
 .navbar {
-<<<<<<< HEAD
   position: fixed;
-=======
->>>>>>> 885d74bd49b9d0ff3f9ddc2d9d6dab71e16351dd
   height: 60px;
   width: 100%;
   background-color: #042331;
@@ -163,11 +136,7 @@ a:hover {
   font-size: 45px;
   color: rgba(255, 255, 255, 0.7);
   font-family: sans-serif;
-<<<<<<< HEAD
   padding-top: 70px;
-=======
-  padding-top: 30px;
->>>>>>> 885d74bd49b9d0ff3f9ddc2d9d6dab71e16351dd
   animation: fadein 2s;
 }
 .hi2 {
@@ -177,10 +146,6 @@ a:hover {
   font-family: sans-serif;
   animation: fadein 2s;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 885d74bd49b9d0ff3f9ddc2d9d6dab71e16351dd
 @keyframes fadein {
   from {
     opacity: 0;
@@ -191,10 +156,6 @@ a:hover {
     padding-left: 900px;
   }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 885d74bd49b9d0ff3f9ddc2d9d6dab71e16351dd
 .space {
   padding-top: 430px;
 }
@@ -254,7 +215,6 @@ a:hover {
   to {
     border-right-color: transparent;
   }
-<<<<<<< HEAD
 }
 .container-about{
   margin: 100px 30px 0px 30px;
@@ -307,6 +267,3 @@ a:hover {
     border: 5px inset rgb(58, 192, 92);
   }
 }
-=======
-}
->>>>>>> 885d74bd49b9d0ff3f9ddc2d9d6dab71e16351dd
