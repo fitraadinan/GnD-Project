@@ -15,7 +15,7 @@
   <body>
     <input type="checkbox" id="check">
     <label for="check">
-      <i id="btn"><img src="GND.png"></i>
+      
       <i class="fas fa-times" id="cancel"></i>
     </label>
     <div class="sidebar">
@@ -30,13 +30,18 @@
     </div>
 
     <div class="navbar">
+    <label for="check">
+      <i id="btn"><img src="GND.png"></i>
+    </label>
       <ul>
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </div>
- <section>
+
+<!-- Home -->
+ <section id="home">
     <div class="container">
       <p class="hi1">Hello,</p>
       <p class="hi2">allow us to introduce ourselves!</p>
@@ -45,6 +50,19 @@
       <p class="typewriter2">My Name is Fitra Adina Nuzulia</p>
     </div>
  </section>
+
+<section id="about" class="about">
+  <div class="container-about">
+    <h2><span>About Us</span></h2>
+  </div>
+  <div class="gatra">
+    <img src="gatra.jpg">
+  </div>
+  <div class="dina">
+    <img src="dina.jpg">
+  </div>
+
+</section>
 
   </body>
 </html>
