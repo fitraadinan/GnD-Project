@@ -73,19 +73,21 @@
         
       </div>
 
-      <p class="namad">Fitra Adina Nuzulia</p>
+      
 
-    <div class="dina">
-      <img src="dina.jpg">
-      <ul>
-        <li><i class="fas fa-map-marker-alt"></i> Semarang, Indonesia </li>
-        <li><i class="fas fa-calendar-alt"></i> 28 November 2001</li>
-      </ul>
-      <ul>
-        <li><i class="fas fa-phone-alt"></i> 0816662367 </li>
-        <li><i class="fas fa-envelope"></i> fanfitraadina@gmail.com</li>
-      </ul>
-      <p class="aboutd">Balonku <b>ada lima rupa rupa warnanya</b> hijau kuning kelabu merah muda dan biru, meletus balon hijau, DOOORR. Hatiku sangat kacauuu. Balonku tinggal empat ku pegang eraterat</p>
+      <div class="dina">
+        <p class="namad">Fitra Adina Nuzulia</p>
+        <img src="dina.jpg">
+        <ul>
+          <li><i class="fas fa-map-marker-alt"></i> Semarang, Indonesia </li>
+          <li><i class="fas fa-calendar-alt"></i> 28 November 2001</li>
+        </ul>
+        <ul>
+          <li><i class="fas fa-phone-alt"></i> 0816662367 </li>
+          <li><i class="fas fa-envelope"></i> fanfitraadina@gmail.com</li>
+        </ul>
+        <p class="aboutd">Balonku <b>ada lima rupa rupa warnanya</b> hijau kuning kelabu merah muda dan biru, meletus balon hijau, DOOORR. Hatiku sangat kacauuu. Balonku tinggal empat ku pegang eraterat</p>
+      </div>
     </div>
   </div>
 </section>
