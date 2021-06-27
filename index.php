@@ -62,12 +62,12 @@
         <p class="namag">Galih Saputra</p>
           <img src="gatra.jpg">
           <ul>
-            <li><i class="fas fa-phone-alt"></i> 085712247539 </li>
-            <li><i class="fas fa-envelope"></i> gatra881@gmail.com</li>
+            <li><i class="fas fa-phone-alt"></i> <p style="font-weight: bold;">Phone</p> 085712247539 </li>
+            <li><i class="fas fa-envelope"></i> <p style="font-weight: bold;">Email</p> gatra881@gmail.com</li>
           </ul>
           <ul>
-            <li><i class="fas fa-map-marker-alt"></i> Semarang, Indonesia </li>
-            <li><i class="fas fa-calendar-alt"></i> 16 Juny 2000</li>
+            <li><i class="fas fa-map-marker-alt"></i> <p style="font-weight: bold;">Location</p> Semarang, Indonesia </li>
+            <li><i class="fas fa-calendar-alt"></i> <p style="font-weight: bold;">Date of Birthday</p> 16 Juny 2000</li>
           </ul>
           <p class="aboutg">Balonku ada lima rupa rupa warnanya hijau kuning kelabu merah muda dan biru, meletus balon hijau, DOOORR. Hatiku sangat kacauuu. Balonku tinggal empat ku pegang eraterat</p>
         
@@ -79,12 +79,12 @@
         <p class="namad">Fitra Adina Nuzulia</p>
         <img src="dina.jpg">
         <ul>
-          <li><i class="fas fa-map-marker-alt"></i> Semarang, Indonesia </li>
-          <li><i class="fas fa-calendar-alt"></i> 28 November 2001</li>
+          <li><i class="fas fa-map-marker-alt"></i> <p style="font-weight: bold;">Location</p> Semarang, Indonesia </li>
+          <li><i class="fas fa-calendar-alt"></i> <p style="font-weight: bold;">Date of Birthday</p> 28 November 2001</li>
         </ul>
         <ul>
-          <li><i class="fas fa-phone-alt"></i> 0816662367 </li>
-          <li><i class="fas fa-envelope"></i> fanfitraadina@gmail.com</li>
+          <li><i class="fas fa-phone-alt"></i> <p style="font-weight: bold;">Phone</p> 0816662367 </li>
+          <li><i class="fas fa-envelope"></i> <p style="font-weight: bold;">Email</p> fanfitraadina@gmail.com</li>
         </ul>
         <p class="aboutd">Balonku <b>ada lima rupa rupa warnanya</b> hijau kuning kelabu merah muda dan biru, meletus balon hijau, DOOORR. Hatiku sangat kacauuu. Balonku tinggal empat ku pegang eraterat</p>
       </div>

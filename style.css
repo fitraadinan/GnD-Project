@@ -281,6 +281,8 @@ a:hover {
   border: 5px solid #042331;
   background-color: #042331;
   color: white;
+  float: left;
+  margin-right: 10px;
 }
 .gatra i:hover {
   border: 5px solid #317392;
@@ -294,6 +296,10 @@ a:hover {
 .gatra li {
   font-family: sans-serif;
   font-size: 15px;
+  float: left;
+}
+.gatra p {
+  padding: 2px 0px 5px 0px;
 }
 .gatra ul,
 .gatra li {
@@ -326,6 +332,8 @@ a:hover {
   border: 5px solid #042331;
   background-color: #042331;
   color: white;
+  float: left;
+  margin-right: 10px;
 }
 .dina i:hover {
   border: 5px solid #317392;
@@ -339,6 +347,10 @@ a:hover {
 .dina li {
   font-family: sans-serif;
   font-size: 15px;
+  float: left;
+}
+.dina p {
+  padding: 2px 0px 5px 0px;
 }
 .dina ul,
 .dina li {
