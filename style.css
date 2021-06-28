@@ -394,3 +394,44 @@ a:hover {
   padding: 7px 10px;
   width: 150px;
 }
+
+.container-skill {
+  margin-top: 40px;
+}
+
+.soft {
+  display: inline-block;
+  border: 2px solid green;
+  width: 50%;
+  background-color: #ddd;
+}
+
+.hard {
+}
+
+.skilss {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.leadership {
+  width: 80%;
+  background-color: blue;
+}
+
+.team-work {
+  width: 85%;
+  background-color: red;
+}
+
+.public-speaking {
+  width: 75%;
+  background-color: green;
+}
+
+.problem-solving {
+  width: 75%;
+  background-color: orangered;
+}

@@ -50,6 +50,7 @@
       <p class="typewriter2">My Name is Fitra Adina Nuzulia</p>
     </div>
  </section>
+
 <!-- About -->
 <section id="about" class="about">
   <div class="containerdst">
@@ -97,6 +98,30 @@
   <div class="containerdst">
     <div class="titleskill">
       <h2><span>Skill Us</span></h2>
+    </div>
+    <div class="container-skill">
+      <p>Leadership</p>
+      <div class="soft">
+        <div class="skills leadership">80%</div>
+      </div>
+      <p>Team work</p>
+      <div class="soft">
+        <div class="skills team-work">85%</div>
+      </div>
+      <p>Public Speaking</p>
+      <div class="soft">
+        <div class="skills public-speaking">75%</div>
+      </div>
+      <p>Problem Solving</p>
+      <div class="soft">
+        <div class="skills problem-solving">75%</div>
+      </div>
+      
+        
+        
+      <div class="hard">
+      
+      </div>
     </div>
   </div>
   
