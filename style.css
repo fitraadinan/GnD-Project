@@ -1,0 +1,461 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* SIDEBAR */
+.sidebar {
+  position: fixed;
+  left: 0px;
+  width: 250px;
+  height: 100%;
+  background: #042331;
+  transition: all 0.5s ease;
+  margin-top: 15px;
+}
+.sidebar header {
+  font-size: 22px;
+  color: white;
+  line-height: 50px;
+  text-align: center;
+  background: #063146;
+  user-select: none;
+}
+.sidebar img {
+  height: 33px;
+  padding: 12px 80px;
+}
+.sidebar ul a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 50px;
+  font-size: 15px;
+  color: white;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  transition: 0.4s;
+}
+.sidebar ul li:hover a {
+  padding-left: 50px;
+}
+.sidebar ul a i {
+  margin-right: 16px;
+}
+#check {
+  display: none;
+}
+label #cancel {
+  position: absolute;
+  background: #458eaf;
+  border-radius: 3px;
+  cursor: pointer;
+}
+label #btn {
+  left: 100px;
+  top: 8px;
+  width: 50px;
+  position: absolute;
+  border-radius: 3px;
+  cursor: pointer;
+}
+label img {
+  width: 40px;
+}
+label #cancel {
+  z-index: 1111;
+  left: 195px;
+  top: 15px;
+  font-size: 20px;
+  color: #0a5275;
+  padding: 4px 9px;
+  transition: all 0.5s ease;
+  position: fixed;
+}
+#check:checked ~ .sidebar {
+  left: -250px;
+}
+#check:checked ~ label #btn {
+  left: 40px;
+  opacity: 1;
+  pointer-events: auto;
+}
+#check:checked ~ label #cancel {
+  left: -195px;
+}
+#check:checked ~ section {
+  margin-left: 0px;
+}
+#home {
+  background: url(section1.jpg) no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 100vh;
+  transition: all 0.5s;
+}
+.container {
+  background: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+}
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  background-color: #042331;
+}
+.navbar ul {
+  float: right;
+  margin-right: 40px;
+}
+.navbar li {
+  display: inline-block;
+  margin: 0 8px;
+  line-height: 60px;
+}
+.navbar a {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  padding: 7px 10px;
+  border-radius: 3px;
+}
+a:hover {
+  border: 1px solid white;
+  transition: 0.5s;
+}
+/* HOME */
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+.hi1 {
+  padding-left: 900px;
+  font-size: 45px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: sans-serif;
+  padding-top: 70px;
+  animation: fadein 2s;
+}
+.hi2 {
+  padding-left: 900px;
+  font-size: 35px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: sans-serif;
+  animation: fadein 2s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    padding-left: 1000px;
+  }
+  to {
+    opacity: 1;
+    padding-left: 900px;
+  }
+}
+.space {
+  padding-top: 430px;
+}
+.typewriter1 {
+  border-right: solid 3px rgba(0, 255, 0, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Source Code Pro", monospace;
+  font-size: 15px;
+  padding-left: 350px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.typewriter1 {
+  animation: animated-text1 2s steps(29, end) 1s 1 normal both, animated-cursor1 600ms steps(29, end) infinite;
+}
+@keyframes animated-text1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 200px;
+  }
+}
+@keyframes animated-cursor1 {
+  from {
+    border-right-color: rgba(0, 255, 0, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+.typewriter2 {
+  border-right: solid 3px rgba(0, 255, 0, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Source Code Pro", monospace;
+  font-size: 15px;
+  padding-left: 900px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.typewriter2 {
+  animation: animated-text2 2s steps(29, end) 1s 1 normal both, animated-cursor2 600ms steps(29, end) infinite;
+}
+@keyframes animated-text2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 250px;
+  }
+}
+@keyframes animated-cursor2 {
+  from {
+    border-right-color: rgba(0, 255, 0, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+.containerdst {
+  margin: 100px 30px 0px 30px;
+  border: 1px solid pink;
+}
+
+/* ABOUT */
+#about {
+  background: white;
+  border: 1px solid white;
+}
+#about h2 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #458eaf;
+  line-height: 0.1em;
+}
+#about h2 span {
+  background: white;
+  font-family: monospace;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid #042331;
+  border-radius: 3px;
+  padding: 7px 10px;
+  width: 150px;
+}
+.gatra img {
+  height: 25em;
+  margin: 0px 0px 80px 80px;
+  padding: 5px;
+  border: 5px inset rgb(58, 192, 92);
+  border-radius: 5px;
+  animation: kelip 5s infinite;
+}
+.dina img {
+  height: 25em;
+  float: right;
+  margin: 0px 80px 80px 0px;
+  padding: 5px;
+  border: 5px inset rgb(58, 192, 92);
+  border-radius: 5px;
+  animation: kelip 5s infinite;
+}
+@keyframes kelip {
+  0% {
+    border: 5px inset rgb(58, 192, 92);
+  }
+  50% {
+    border: 5px inset #317392;
+  }
+  100% {
+    border: 5px inset rgb(58, 192, 92);
+  }
+}
+.gatra {
+  border-bottom: 1px solid #317392;
+  padding-bottom: 60px;
+}
+.gatra i {
+  padding: 10px;
+  border: 5px solid #042331;
+  background-color: #042331;
+  color: white;
+  float: left;
+  margin-right: 10px;
+}
+.gatra i:hover {
+  border: 5px solid #317392;
+  transition: 0.3s;
+  padding-left: 30px;
+}
+.gatra ul {
+  display: inline-block;
+  float: right;
+}
+.gatra li {
+  font-family: sans-serif;
+  font-size: 15px;
+  float: left;
+}
+.gatra p {
+  padding: 2px 0px 5px 0px;
+}
+.gatra ul,
+.gatra li {
+  margin: 0px 130px 40px 20px;
+  width: 350px;
+}
+.namag {
+  margin: 30px 30px 10px 80px;
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #042331;
+  font-weight: bold;
+  width: 200px;
+}
+.aboutg {
+  display: inline;
+  float: right;
+  font-size: 15px;
+  margin-top: -330px;
+  margin-right: 63px;
+  width: 900px;
+}
+.dina {
+  padding-bottom: 60px;
+  display: inline-block;
+}
+
+.dina i {
+  padding: 10px;
+  border: 5px solid #042331;
+  background-color: #042331;
+  color: white;
+  float: left;
+  margin-right: 10px;
+}
+.dina i:hover {
+  border: 5px solid #317392;
+  transition: 0.3s;
+  padding-left: 30px;
+}
+.dina ul {
+  display: inline-block;
+  float: left;
+}
+.dina li {
+  font-family: sans-serif;
+  font-size: 15px;
+  float: left;
+}
+.dina p {
+  padding: 2px 0px 5px 0px;
+}
+.dina ul,
+.dina li {
+  margin: 0px 130px 25px 20px;
+  width: 350px;
+}
+.namad {
+  text-align: right;
+  margin: 30px 80px 10px 0px;
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #042331;
+  font-weight: bold;
+}
+.aboutd {
+  display: inline-block;
+  float: left;
+  font-size: 15px;
+  margin-left: 40px;
+  width: 900px;
+}
+
+#skill {
+  background: white;
+  border: 1px solid white;
+}
+#skill h2 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #458eaf;
+  line-height: 0.1em;
+}
+#skill h2 span {
+  background: white;
+  font-family: monospace;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid #042331;
+  border-radius: 3px;
+  padding: 7px 10px;
+  width: 150px;
+}
+.skillp {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 70px;
+}
+.softg p {
+  text-align: left;
+  margin-top: 10px;
+}
+.container-skill:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 50%;
+  border: 1px solid blue;
+  padding: 10px;
+}
+.column p {
+  padding-top: 5px;
+  font-family: monospace;
+  font-size: 20px;
+}
+.skills {
+  text-align: right;
+  color: white;
+  padding-right: 5px;
+  font-family: sans-serif;
+}
+.soft {
+  display: inline-block;
+  border-radius: 4px;
+  width: 90%;
+  background-color: #ddd;
+  padding: 5px;
+}
+
+.lead {
+  background-color: #f94144;
+  border-radius: 4px;
+}
+.team {
+  background-color: #f3722c;
+  border-radius: 4px;
+}
+.public {
+  background-color: #f8961e;
+  border-radius: 4px;
+}
+.problem {
+  background-color: #f9c74f;
+  border-radius: 4px;
+}
+.time {
+  background-color: #90be6d;
+  border-radius: 4px;
+}
