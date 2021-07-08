@@ -220,6 +220,7 @@ a:hover {
 }
 .containerdst {
   margin: 100px 30px 0px 30px;
+  border: 1px solid pink;
 }
 
 /* ABOUT */
@@ -394,44 +395,99 @@ a:hover {
   padding: 7px 10px;
   width: 150px;
 }
-
+.skillg{
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 70px;
+}
 .container-skill {
-  margin-top: 40px;
+  margin: 10px;
+  border: 1px solid red;
 }
 
 .soft {
   display: inline-block;
-  border: 2px solid green;
-  width: 50%;
+  border-radius: 4px;
+  width: 40%;
   background-color: #ddd;
+  padding: 5px;
 }
 
 .hard {
+  display: inline-block;
+  border-radius: 4px;
+  width: 40%;
+  background-color: #ddd;
 }
-
-.skilss {
+.skills {
   text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
   color: white;
+  padding-right: 5px;
+  font-family: sans-serif;
 }
-
-.leadership {
+.leadg {
   width: 80%;
-  background-color: blue;
+  background-color: #f94144;
+  border-radius: 4px;
 }
-
-.team-work {
+.teamg {
   width: 85%;
-  background-color: red;
+  background-color: #f3722c;
+  border-radius: 4px;
 }
-
-.public-speaking {
+.publicg {
   width: 75%;
-  background-color: green;
+  background-color: #f8961e;
+  border-radius: 4px;
 }
-
-.problem-solving {
+.problemg{
   width: 75%;
-  background-color: orangered;
+  background-color: #f9c74f;
+  border-radius: 4px;
+}
+.timeg{
+  width: 60%;
+  background-color: #90be6d;
+  border-radius: 4px;
+}
+.leadd {
+  width: 65%;
+  background-color: #f94144;
+  border-radius: 4px;
+}
+.teamd {
+  width: 85%;
+  background-color: #f3722c;
+  border-radius: 4px;
+}
+.publicd {
+  width: 60%;
+  background-color: #f8961e;
+  border-radius: 4px;
+}
+.problemd{
+  width: 75%;
+  background-color: #f9c74f;
+  border-radius: 4px;
+}
+.timed{
+  width: 80%;
+  background-color: #90be6d;
+  border-radius: 4px;
+}
+.container-skill p{
+  margin: 5px;
+  font-size: 20px;
+  font-family: monospace;
+}
+.softg{
+  width: 50%;
+  border: 1px solid blue;
+}
+.hardg{
+  width: 50%;
+  border: 1px solid purple;
 }

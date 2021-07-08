@@ -21,11 +21,11 @@
     <div class="sidebar">
       <img src="GND.png">
       <ul>
-        <li><a href="#"><i class="fas fa-qrcode"></i>Home</a></li>
-        <li><a href="#"><i class="fas fa-link"></i>Shortcuts</a></li>
-        <li><a href="#"><i class="fas fa-stream"></i>Overview</a></li>
-        <li><a href="#"><i class="fas fa-calendar-week"></i>Events</a></li>
-        <li><a href="#"><i class="fas fa-sliders-h"></i>Services</a></li>
+        <li><a href="#home"><i class="fas fa-qrcode"></i>Home</a></li>
+        <li><a href="#about"><i class="far fa-address-card"></i></i>About</a></li>
+        <li><a href="#skill"><i class="fas fa-users-cog"></i></i>Skills</a></li>
+        <li><a href="#"><i class="fas fa-pencil-ruler"></i></i>Experiences</a></li>
+        <li><a href="#"><i class="fas fa-address-book"></i></i>Contact</a></li>
       </ul>
     </div>
 
@@ -99,32 +99,71 @@
     <div class="titleskill">
       <h2><span>Skill Us</span></h2>
     </div>
-    <div class="container-skill">
-      <p>Leadership</p>
-      <div class="soft">
-        <div class="skills leadership">80%</div>
-      </div>
-      <p>Team work</p>
-      <div class="soft">
-        <div class="skills team-work">85%</div>
-      </div>
-      <p>Public Speaking</p>
-      <div class="soft">
-        <div class="skills public-speaking">75%</div>
-      </div>
-      <p>Problem Solving</p>
-      <div class="soft">
-        <div class="skills problem-solving">75%</div>
-      </div>
-      
+
+    <div class="skillga">
+      <p class="skillg">Galih Saputra</p>
+      <div class="container-skill">
+        <div class="softg">
+          <p>Leadership</p>
+          <div class="soft">
+            <div class="skills leadg">80%</div>
+          </div>
+          <p>Team work</p>
+          <div class="soft">
+            <div class="skills teamg">85%</div>
+          </div>
+          <p>Public Speaking</p>
+          <div class="soft">
+            <div class="skills publicg">75%</div>
+          </div>
+          <p>Problem Solving</p>
+          <div class="soft">
+            <div class="skills problemg">75%</div>
+          </div>
+          <p>Time Management</p>
+          <div class="soft">
+            <div class="skills timeg">60%</div>
+          </div>
+        </div>
+
+        <div class="hardg">
+          <p>Nyoba</p>
+          <div class="hard">
+            <div class="skills teamg">85%</div>
+          </div>
+        </div>
         
-        
-      <div class="hard">
-      
+      </div>
+    </div>
+
+    
+    <div class="skilldi">
+      <p class="skillg">Fitra Adina Nuzulia</p>
+      <div class="container-skill">
+        <p>Leadership</p>
+        <div class="soft">
+          <div class="skills leadd">65%</div>
+        </div>
+        <p>Team work</p>
+        <div class="soft">
+          <div class="skills teamd">85%</div>
+        </div>
+        <p>Public Speaking</p>
+        <div class="soft">
+          <div class="skills publicd">60%</div>
+        </div>
+        <p>Problem Solving</p>
+        <div class="soft">
+          <div class="skills problemd">75%</div>
+        </div>
+        <p>Time Management</p>
+        <div class="soft">
+          <div class="skills timed">80%</div>
+        </div>
       </div>
     </div>
   </div>
-  
+
 </section>
 
   </body>
