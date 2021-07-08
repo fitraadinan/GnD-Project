@@ -100,68 +100,72 @@
       <h2><span>Skill Us</span></h2>
     </div>
 
-    <div class="skillga">
-      <p class="skillg">Galih Saputra</p>
+    <div class="skill">
+      <p class="skillp">Galih Saputra</p>
       <div class="container-skill">
-        <div class="softg">
+        <div class="column">
           <p>Leadership</p>
           <div class="soft">
-            <div class="skills leadg">80%</div>
+            <div class="skills lead" style="width: 80%;">80%</div>
           </div>
           <p>Team work</p>
           <div class="soft">
-            <div class="skills teamg">85%</div>
+            <div class="skills team" style="width: 85%;">85%</div>
           </div>
           <p>Public Speaking</p>
           <div class="soft">
-            <div class="skills publicg">75%</div>
+            <div class="skills public" style="width: 75%;">75%</div>
           </div>
           <p>Problem Solving</p>
           <div class="soft">
-            <div class="skills problemg">75%</div>
+            <div class="skills problem" style="width: 75%;">75%</div>
           </div>
           <p>Time Management</p>
           <div class="soft">
-            <div class="skills timeg">60%</div>
+            <div class="skills time" style="width: 60%;">60%</div>
           </div>
         </div>
 
-        <div class="hardg">
+        <div class="column">
           <p>Nyoba</p>
-          <div class="hard">
-            <div class="skills teamg">85%</div>
-          </div>
         </div>
         
       </div>
     </div>
 
-    
-    <div class="skilldi">
-      <p class="skillg">Fitra Adina Nuzulia</p>
+    <div class="skill">
+      <p class="skillp">Fitra Adina Nuzulia</p>
       <div class="container-skill">
-        <p>Leadership</p>
-        <div class="soft">
-          <div class="skills leadd">65%</div>
+        <div class="column">
+          <p>Leadership</p>
+          <div class="soft">
+            <div class="skills lead" style="width: 65%;">65%</div>
+          </div>
+          <p>Team work</p>
+          <div class="soft">
+            <div class="skills team" style="width: 85%;">85%</div>
+          </div>
+          <p>Public Speaking</p>
+          <div class="soft">
+            <div class="skills public" style="width: 60%">60%</div>
+          </div>
+          <p>Problem Solving</p>
+          <div class="soft">
+            <div class="skills problem" style="width: 75%;">75%</div>
+          </div>
+          <p>Time Management</p>
+          <div class="soft">
+            <div class="skills time" style="width: 80%;">80%</div>
+          </div>
         </div>
-        <p>Team work</p>
-        <div class="soft">
-          <div class="skills teamd">85%</div>
+
+        <div class="column">
+          <p>Nyoba</p>
         </div>
-        <p>Public Speaking</p>
-        <div class="soft">
-          <div class="skills publicd">60%</div>
-        </div>
-        <p>Problem Solving</p>
-        <div class="soft">
-          <div class="skills problemd">75%</div>
-        </div>
-        <p>Time Management</p>
-        <div class="soft">
-          <div class="skills timed">80%</div>
-        </div>
+        
       </div>
     </div>
+    
   </div>
 
 </section>
