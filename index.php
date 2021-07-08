@@ -90,6 +90,7 @@
     <div class="titleskill">
       <h2><span>Skill Us</span></h2>
     </div>
+
     <div class="skill">
       <p class="skillp">Galih Saputra</p>
       <div class="container-skill">
@@ -115,12 +116,14 @@
             <div class="skills time" style="width: 60%;">60%</div>
           </div>
         </div>
+
         <div class="column">
           <p>Nyoba</p>
         </div>
         
       </div>
     </div>
+
     <div class="skill">
       <p class="skillp">Fitra Adina Nuzulia</p>
       <div class="container-skill">
@@ -146,6 +149,7 @@
             <div class="skills time" style="width: 80%;">80%</div>
           </div>
         </div>
+
         <div class="column">
           <p>Nyoba</p>
         </div>
