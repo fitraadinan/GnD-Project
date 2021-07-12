@@ -79,7 +79,8 @@
           <li><i class="fas fa-phone-alt"></i> <p style="font-weight: bold;">Phone</p> 0816662367 </li>
           <li><i class="fas fa-envelope"></i> <p style="font-weight: bold;">Email</p> fanfitraadina@gmail.com</li>
         </ul>
-        <p class="aboutd">Balonku <b>ada lima rupa rupa warnanya</b> hijau kuning kelabu merah muda dan biru, meletus balon hijau, DOOORR. Hatiku sangat kacauuu. Balonku tinggal empat ku pegang eraterat</p>
+        <p class="aboutd">My name is <b>Fitra Adina Nuzulia</b>, you can call me <b>Dina</b>. I'm a student of <b>Computer Engineering, Faculty of Engineering, Diponegoro University</b>. I've been in the computer engineering for <b>two years</b> and lean towards <b>Software Engineering</b>. I'm currently studying <b>Web Programming</b> using <b>JavaScript, HTML, and CSS</b>. In addition to Web Programming, I also learned a little about making logos using <b>CorelDraw</b>.</p>
+        <p class="aboutd">I'm not only busy in the computer engineering, but I'm also <b>building a business</b> and <b>honing my hobbies</b>, namely <b>photography and videography</b>.</p>
       </div>
     </div>
   </div>

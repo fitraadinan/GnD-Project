@@ -4,7 +4,6 @@
   margin: 0;
   list-style: none;
   text-decoration: none;
-  box-sizing: border-box;
 }
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -17,15 +16,6 @@ body {
   height: 100%;
   background: #042331;
   transition: all 0.5s ease;
-  margin-top: 15px;
-}
-.sidebar header {
-  font-size: 22px;
-  color: white;
-  line-height: 50px;
-  text-align: center;
-  background: #063146;
-  user-select: none;
 }
 .sidebar img {
   height: 33px;
@@ -374,8 +364,10 @@ a:hover {
   font-size: 15px;
   margin-left: 40px;
   width: 900px;
+  text-align: justify;
+  line-height: 20px;
 }
-
+/* SKILL */
 #skill {
   background: white;
   border: 1px solid white;
@@ -413,6 +405,7 @@ a:hover {
   content: " ";
   display: table;
   clear: both;
+  box-sizing: border-box;
 }
 .column {
   float: left;
