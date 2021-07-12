@@ -8,81 +8,65 @@
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
 /* SIDEBAR */
 .sidebar {
   position: fixed;
-  left: 0px;
-  width: 250px;
+  left: -250px;
+  width: 240px;
   height: 100%;
   background: #042331;
   transition: all 0.5s ease;
+  overflow: hidden;
 }
-.sidebar img {
-  height: 33px;
-  padding: 12px 80px;
+.sidebar.active {
+  left: 0;
 }
-.sidebar ul a {
-  display: block;
-  height: 100%;
+.sidebar ul {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  line-height: 50px;
-  font-size: 15px;
+  margin-top: 60px;
+}
+.sidebar ul li {
+  position: relative;
+  width: 100%;
+  list-style: none;
+  transition: all 0.5s ease;
+}
+.sidebar ul li:hover {
+  padding-left: 15px;
+  border-left: 2px solid white;
+  transition: 0.5s;
+}
+.sidebar ul li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
   color: white;
-  padding-left: 40px;
   box-sizing: border-box;
   border-bottom: 1px solid black;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  transition: 0.4s;
 }
-.sidebar ul li:hover a {
-  padding-left: 50px;
+.sidebar ul li a .icon {
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
 }
-.sidebar ul a i {
-  margin-right: 16px;
-}
-#check {
-  display: none;
-}
-label #cancel {
-  position: absolute;
-  background: #458eaf;
-  border-radius: 3px;
-  cursor: pointer;
-}
-label #btn {
-  left: 100px;
-  top: 8px;
-  width: 50px;
-  position: absolute;
-  border-radius: 3px;
-  cursor: pointer;
-}
-label img {
-  width: 40px;
-}
-label #cancel {
-  z-index: 1111;
-  left: 195px;
-  top: 15px;
-  font-size: 20px;
-  color: #0a5275;
-  padding: 4px 9px;
-  transition: all 0.5s ease;
-  position: fixed;
-}
-#check:checked ~ .sidebar {
-  left: -250px;
-}
-#check:checked ~ label #btn {
-  left: 40px;
-  opacity: 1;
-  pointer-events: auto;
-}
-#check:checked ~ label #cancel {
-  left: -195px;
-}
-#check:checked ~ section {
-  margin-left: 0px;
+.sidebar ul li a .title {
+  position: relative;
+  display: block;
+  padding: 0 10px;
+  height: 60px;
+  line-height: 60px;
+  text-align: start;
+  white-space: nowrap;
 }
 #home {
   background: url(section1.jpg) no-repeat;
@@ -102,6 +86,12 @@ label #cancel {
   width: 100%;
   background-color: #042331;
 }
+.navbar img {
+  height: 33px;
+  padding: 12px 80px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
 .navbar ul {
   float: right;
   margin-right: 40px;
@@ -119,7 +109,7 @@ label #cancel {
   padding: 7px 10px;
   border-radius: 3px;
 }
-a:hover {
+.navbar a:hover {
   border: 1px solid white;
   transition: 0.5s;
 }
@@ -310,6 +300,8 @@ a:hover {
 .aboutg {
   display: inline;
   float: right;
+  line-height: 20px;
+  text-align: justify;
   font-size: 15px;
   margin-top: -330px;
   margin-right: 63px;
@@ -405,13 +397,13 @@ a:hover {
   content: " ";
   display: table;
   clear: both;
-  box-sizing: border-box;
 }
 .column {
   float: left;
   width: 50%;
   border: 1px solid blue;
   padding: 10px;
+  box-sizing: border-box;
 }
 .column p {
   padding-top: 5px;
@@ -463,8 +455,7 @@ a:hover {
   border: 1px solid orange;
   display: inline-block;
 }
-.column1 {
-}
+
 .container-cir p {
   padding-left: 65px;
   font-family: monospace;
