@@ -172,16 +172,16 @@
           <h1>Hard Skills</h1>
           <div class="container-cir">
           <div class="column2">
-          <p>PHP</p>
+            <p>PHP</p>
             <div class="circle-wrap">
               <div class="circle">
       
                 <div class="mask full">
-                  <div class="fill"></div>
+                  <div class="fill" style="background-color: blue;"></div>
                 </div>
     
                 <div class="mask half">
-                  <div class="fill"></div>
+                  <div class="fill" style="background-color: blue;"></div>
                 </div>
       
                 <div class="inside-circle">
@@ -192,16 +192,17 @@
                     
             </div>
           </div>
+          <div class="column2">
           <p>JavaScript</p>
             <div class="circle-wrap">
               <div class="circle">
       
                 <div class="mask full">
-                  <div class="fill"></div>
+                  <div class="fill" style="background-color: #ffd700; transform: rotate(108deg); animation: filljs ease-in-out 3s;"></div>
                 </div>
     
                 <div class="mask half">
-                  <div class="fill"></div>
+                  <div class="fill" style="background-color: #ffd700; "></div>
                 </div>
       
                 <div class="inside-circle">
@@ -211,44 +212,49 @@
               </div>
                     
             </div>
-          <p>HTML</p>
+          </div>
+          <div class="column2">
+          <p>Cisco</p>
             <div class="circle-wrap">
               <div class="circle">
       
                 <div class="mask full">
-                  <div class="fill"></div>
+                  <div class="fill" style="background-color: green; transform: rotate(144deg); animation: fillh ease-in-out 3s;"></div>
                 </div>
     
                 <div class="mask half">
-                  <div class="fill"></div>
+                  <div class="fill" style="background-color: green;"></div>
                 </div>
       
                 <div class="inside-circle">
-                  50%
+                  80%
                 </div>
       
               </div>
                     
             </div>
-          <p>CSS</p>
+          </div>
+          <div class="column2">
+          <p>Office</p>
             <div class="circle-wrap">
               <div class="circle">
       
                 <div class="mask full">
-                  <div class="fill"></div>
+                  <div class="fill" style="background-color: red; transform: rotate(162deg); animation: fillc ease-in-out 3s;"></div>
                 </div>
     
                 <div class="mask half">
-                  <div class="fill"></div>
+                  <div class="fill" style="background-color: red;"></div>
                 </div>
       
                 <div class="inside-circle">
-                  50%
+                  90%
                 </div>
       
               </div>
                     
             </div>
+          </div>
           </div>
         
       </div>
