@@ -171,15 +171,88 @@
         <div class="column">
           <h1>Hard Skills</h1>
           <div class="container-cir">
-            <p>HTML</p>
-            <div class="cir1">
-              <div class="cir2">60</div>
+          <div class="column2">
+          <p>PHP</p>
+            <div class="circle-wrap">
+              <div class="circle">
+      
+                <div class="mask full">
+                  <div class="fill"></div>
+                </div>
+    
+                <div class="mask half">
+                  <div class="fill"></div>
+                </div>
+      
+                <div class="inside-circle">
+                  80%
+                </div>
+      
+              </div>
+                    
             </div>
           </div>
-          
-        </div>
+          <p>JavaScript</p>
+            <div class="circle-wrap">
+              <div class="circle">
+      
+                <div class="mask full">
+                  <div class="fill"></div>
+                </div>
+    
+                <div class="mask half">
+                  <div class="fill"></div>
+                </div>
+      
+                <div class="inside-circle">
+                  60%
+                </div>
+      
+              </div>
+                    
+            </div>
+          <p>HTML</p>
+            <div class="circle-wrap">
+              <div class="circle">
+      
+                <div class="mask full">
+                  <div class="fill"></div>
+                </div>
+    
+                <div class="mask half">
+                  <div class="fill"></div>
+                </div>
+      
+                <div class="inside-circle">
+                  50%
+                </div>
+      
+              </div>
+                    
+            </div>
+          <p>CSS</p>
+            <div class="circle-wrap">
+              <div class="circle">
+      
+                <div class="mask full">
+                  <div class="fill"></div>
+                </div>
+    
+                <div class="mask half">
+                  <div class="fill"></div>
+                </div>
+      
+                <div class="inside-circle">
+                  50%
+                </div>
+      
+              </div>
+                    
+            </div>
+          </div>
         
       </div>
+
     </div>
 
     <div class="skill">
