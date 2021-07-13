@@ -11,14 +11,7 @@
 
     <!-- Script JS -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script type="text/javascript">
-        function toggleMenu(){
-          let sidebar = document.querySelector('.sidebar');
-          let toggle = document.querySelector('.toggle');
-          sidebar.classList.toggle('active');
-          toggle.classList.toggle('active');
-        }
-    </script>
+    <script type="text/javascript" src="javascript.js"></script>
 
   </head>
   <body>
@@ -38,13 +31,13 @@
           </a>
         </li>
         <li>
-          <a href="#skill">
+          <a href="#skill" id="btnSkill">
             <span class="icon"><i class="fas fa-users-cog"></i></span>
             <span class="title">Skills</span>
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#experience">
             <span class="icon"><i class="fas fa-pencil-ruler"></i></span>
             <span class="title">Experience</span>
           </a>
@@ -288,6 +281,7 @@
       <p class="skillp">Fitra Adina Nuzulia</p>
       <div class="container-skill">
         <div class="column">
+          <h1>Soft Skills</h1>
           <p>Leadership</p>
           <div class="soft">
             <div class="skills baris1" style="width: 65%; animation: soft65 3s;">65%</div>
@@ -316,7 +310,7 @@
           <div class="soft">
             <div class="skills baris1" style="width: 75%; animation: soft75 3s;">75%</div>
           </div>
-          <p>Multimedia</p>
+          <p>Videography</p>
           <div class="soft">
             <div class="skills baris2" style="width: 85%; animation: soft85 3s;">85%</div>
           </div>
@@ -424,6 +418,182 @@
     
   </div>
 
+</section>
+
+<!-- Experiences -->
+<section id="experience">
+  <div class="containerdst">
+    <div class="titleexperience">
+      <h2><span>Experiences Us</span></h2>
+    </div>
+    <div class="containerexp">
+    <p class="nama">Galih Saputra</p>
+    <h1>Organization</h1>
+    <div class="wrapper">
+      <div class="center-line">
+        <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon">2021</i>
+          <div class="details">
+            <span class="title">Al Muharrik</span>
+          </div>
+          <p>
+            Mas'ul Al Muharrik 2021<br />
+            Teknik Komputer Fakultas Teknik Universitas Diponegoro
+          </p>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">Izzati</span>
+          </div>
+          <p>
+            Kepala Divisi Bidang Kaderisasi Izzati Gen 27<br />
+            Fakultas Teknik Universitas Diponegoro
+          </p>
+        </section>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon">2020</i>
+          <div class="details">
+            <span class="title">Inspirator Muda</span>
+          </div>
+          <p>Member of Inspirator Muda Indonesia</p>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">Rebana Diponegoro University</span>
+          </div>
+          <p>Staff Muda bidang PSDM Rebana Diponegoro University 2020<br />
+            Universitas Diponegoro</p>
+        </section>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">Karya Salemba Empat</span>
+          </div>
+          <p>Beswan sekaligus Staff Bidang Edukasi dan Teknologi Karya Salemba Empat Universitas Diponegoro</p>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">Izzati</span>
+          </div>
+          <p>
+            <span>Staff Muda Bidang Kaderisasi Izzati Gen 26</span> <br />
+            Fakultas Teknik Universitas Diponegoro</p>
+        </section>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">Al Muharrik</span>
+          </div>
+          <p>Staff Muda Bidang Mentoring Al Muharrik 2020<br />
+            Teknik Komputer Fakultas Teknik Universitas Diponegoro</p>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">Himpunan Mahasiswa Teknik Komputer</span>
+          </div>
+          <p>
+            Staff Bidang PSDM Himpunan Mahasiswa Teknik Komputer 2020<br />
+            Teknik Komputer Fakultas Teknik Universitas Diponegoro
+          </p>
+        </section>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">Andesbon Reborn</span>
+          </div>
+          <p>Sekretaris Remaja Rukun Warga "Andesbon Reborn"<br />
+            Desa Kebonmanis RW3 Mangunsari Gunungpati</p>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section>
+          <i class="icon">2019</i>
+          <div class="details">
+            <span class="title">Tunas Muda</span>
+          </div>
+          <p>
+            Ketua Posyandu Remaja "Tunas Muda"<br />
+            Desa Kebonmanis RW3 Mangunsari Gunungpati</p>
+        </section>
+      </div>
+    </div>
+    <div class="containerexp">
+    <p class="nama" style="width: 250px;">Fitra Adina Nuzulia</p>
+    <h1>Organization</h1>
+    <div class="wrapper">
+      <div class="center-line">
+        <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon">2021</i>
+          <div class="details">
+            <span class="title">Al Muharrik</span>
+          </div>
+          <p>
+            Kepala Bidang Annisa Al Muharrik 2021<br />
+            Teknik Komputer Fakultas Teknik Universitas Diponegoro
+          </p>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">Himpunan Mahasiswa Teknik Komputer</span>
+          </div>
+          <p>
+            Bendahara Bidang Minat, Bakat, Kegemaran Himpunan Mahasiswa Teknik Komputer 2021<br />
+            Teknik Komputer Fakultas Teknik Universitas Diponegoro
+          </p>
+        </section>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon">2020</i>
+          <div class="details">
+            <span class="title">Al Muharrik</span>
+          </div>
+          <p>Staff Muda Bidang Annisa Al Muharrik 2020<br />
+            Teknik Komputer Fakultas Teknik Universitas Diponegoro</p>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">Himpunan Mahasiswa Teknik Komputer</span>
+          </div>
+          <p>Staff Muda Bidang Minat, Bakat, dan Kegemaran<br />
+            Teknik Komputer Fakultas Teknik Universitas Diponegoro</p>
+        </section>
+      </div>
+    </div>
+    </div>
+  </div>
 </section>
 
   </body>
