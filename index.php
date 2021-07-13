@@ -148,117 +148,140 @@
           <h1>Soft Skills</h1>
           <p>Leadership</p>
           <div class="soft">
-            <div class="skills lead" style="width: 80%;">80%</div>
+            <div class="skills baris1" style="width: 80%; animation: soft80 3s;">80%</div>
           </div>
           <p>Team work</p>
           <div class="soft">
-            <div class="skills team" style="width: 85%;">85%</div>
+            <div class="skills baris2" style="width: 85%; animation: soft85 3s;">85%</div>
           </div>
           <p>Public Speaking</p>
           <div class="soft">
-            <div class="skills public" style="width: 75%;">75%</div>
+            <div class="skills baris3" style="width: 75%; animation: soft75 3s;">75%</div>
           </div>
           <p>Problem Solving</p>
           <div class="soft">
-            <div class="skills problem" style="width: 75%;">75%</div>
+            <div class="skills baris4" style="width: 75%; animation: soft75 3s;;">75%</div>
           </div>
           <p>Time Management</p>
           <div class="soft">
-            <div class="skills time" style="width: 60%;">60%</div>
+            <div class="skills baris5" style="width: 60%; animation: soft60 3s;">60%</div>
           </div>
         </div>
 
         <div class="column">
           <h1>Hard Skills</h1>
-          <div class="container-cir">
-          <div class="column2">
-            <p>PHP</p>
-            <div class="circle-wrap">
-              <div class="circle">
-      
-                <div class="mask full">
-                  <div class="fill" style="background-color: blue;"></div>
-                </div>
-    
-                <div class="mask half">
-                  <div class="fill" style="background-color: blue;"></div>
-                </div>
-      
-                <div class="inside-circle">
-                  80%
-                </div>
-      
-              </div>
-                    
-            </div>
+          <p>Web Programming</p>
+          <div class="soft">
+            <div class="skills baris1" style="width: 80%; animation: soft80 3s;">80%</div>
           </div>
-          <div class="column2">
-          <p>JavaScript</p>
-            <div class="circle-wrap">
-              <div class="circle">
-      
-                <div class="mask full">
-                  <div class="fill" style="background-color: #ffd700; transform: rotate(108deg); animation: filljs ease-in-out 3s;"></div>
-                </div>
-    
-                <div class="mask half">
-                  <div class="fill" style="background-color: #ffd700; "></div>
-                </div>
-      
-                <div class="inside-circle">
-                  60%
-                </div>
-      
-              </div>
-                    
-            </div>
+          <p>Routing</p>
+          <div class="soft">
+            <div class="skills baris2" style="width: 85%; animation: soft85 3s;">85%</div>
           </div>
-          <div class="column2">
-          <p>Cisco</p>
-            <div class="circle-wrap">
-              <div class="circle">
-      
-                <div class="mask full">
-                  <div class="fill" style="background-color: green; transform: rotate(144deg); animation: fillh ease-in-out 3s;"></div>
-                </div>
-    
-                <div class="mask half">
-                  <div class="fill" style="background-color: green;"></div>
-                </div>
-      
-                <div class="inside-circle">
-                  80%
-                </div>
-      
-              </div>
-                    
-            </div>
+          <p>Writing</p>
+          <div class="soft">
+            <div class="skills baris3" style="width: 75%; animation: soft75 3s;">75%</div>
           </div>
-          <div class="column2">
-          <p>Office</p>
-            <div class="circle-wrap">
-              <div class="circle">
-      
-                <div class="mask full">
-                  <div class="fill" style="background-color: red; transform: rotate(162deg); animation: fillc ease-in-out 3s;"></div>
-                </div>
-    
-                <div class="mask half">
-                  <div class="fill" style="background-color: red;"></div>
-                </div>
-      
-                <div class="inside-circle">
-                  90%
-                </div>
-      
-              </div>
-                    
-            </div>
+          <p>?</p>
+          <div class="soft">
+            <div class="skills baris4" style="width: 75%; animation: soft75 3s;;">75%</div>
           </div>
+          <p>?</p>
+          <div class="soft">
+            <div class="skills baris5" style="width: 60%; animation: soft60 3s;">60%</div>
           </div>
-        
+          
+        </div>
       </div>
 
+      <div class="lang">
+        <h1>Language Programming</h1>
+            <div class="container-cir">
+            <div class="column2">
+              <p>PHP</p>
+              <div class="circle-wrap">
+                <div class="circle">
+        
+                  <div class="mask full">
+                    <div class="fill" style="background-color: #084c61; transform: rotate(144deg); animation: hard80 ease-in-out 3s;"></div>
+                  </div>
+      
+                  <div class="mask half">
+                    <div class="fill" style="background-color: #084c61;"></div>
+                  </div>
+        
+                  <div class="inside-circle">
+                    80%
+                  </div>
+        
+                </div>
+                      
+              </div>
+            </div>
+            <div class="column2">
+            <p>JavaScript</p>
+              <div class="circle-wrap">
+                <div class="circle">
+        
+                  <div class="mask full">
+                    <div class="fill" style="background-color: #ffc857; transform: rotate(108deg); animation: hard60 ease-in-out 3s;"></div>
+                  </div>
+      
+                  <div class="mask half">
+                    <div class="fill" style="background-color: #ffc857; "></div>
+                  </div>
+        
+                  <div class="inside-circle">
+                    60%
+                  </div>
+        
+                </div>
+                      
+              </div>
+            </div>
+            <div class="column2">
+            <p>Cisco</p>
+              <div class="circle-wrap">
+                <div class="circle">
+        
+                  <div class="mask full">
+                    <div class="fill" style="background-color: #7cb518; transform: rotate(144deg); animation: hard80 ease-in-out 3s;"></div>
+                  </div>
+      
+                  <div class="mask half">
+                    <div class="fill" style="background-color: #7cb518;"></div>
+                  </div>
+        
+                  <div class="inside-circle">
+                    80%
+                  </div>
+        
+                </div>
+                      
+              </div>
+            </div>
+            <div class="column2">
+            <p>Office</p>
+              <div class="circle-wrap">
+                <div class="circle">
+        
+                  <div class="mask full">
+                    <div class="fill" style="background-color: #db3a34; transform: rotate(162deg); animation: hard90 ease-in-out 3s;"></div>
+                  </div>
+      
+                  <div class="mask half">
+                    <div class="fill" style="background-color: #db3a34;"></div>
+                  </div>
+        
+                  <div class="inside-circle">
+                    90%
+                  </div>
+        
+                </div>
+                      
+              </div>
+            </div>
+        </div>
     </div>
 
     <div class="skill">
@@ -267,28 +290,133 @@
         <div class="column">
           <p>Leadership</p>
           <div class="soft">
-            <div class="skills lead" style="width: 65%;">65%</div>
+            <div class="skills baris1" style="width: 65%; animation: soft65 3s;">65%</div>
           </div>
           <p>Team work</p>
           <div class="soft">
-            <div class="skills team" style="width: 85%;">85%</div>
+            <div class="skills baris2" style="width: 85%; animation: soft85 3s;">85%</div>
           </div>
           <p>Public Speaking</p>
           <div class="soft">
-            <div class="skills public" style="width: 60%">60%</div>
+            <div class="skills baris3" style="width: 60%; animation: soft60 3s;">60%</div>
           </div>
           <p>Problem Solving</p>
           <div class="soft">
-            <div class="skills problem" style="width: 75%;">75%</div>
+            <div class="skills baris4" style="width: 75%; animation: soft75 3s;">75%</div>
           </div>
           <p>Time Management</p>
           <div class="soft">
-            <div class="skills time" style="width: 80%;">80%</div>
+            <div class="skills baris5" style="width: 80%; animation: soft80 3s;">80%</div>
           </div>
         </div>
 
         <div class="column">
-          <p>Nyoba</p>
+          <h1>Hard Skills</h1>
+          <p>Web Programming</p>
+          <div class="soft">
+            <div class="skills baris1" style="width: 75%; animation: soft75 3s;">75%</div>
+          </div>
+          <p>Multimedia</p>
+          <div class="soft">
+            <div class="skills baris2" style="width: 85%; animation: soft85 3s;">85%</div>
+          </div>
+          <p>Writing</p>
+          <div class="soft">
+            <div class="skills baris3" style="width: 75%; animation: soft75 3s;">75%</div>
+          </div>
+          <p>Social Media Management</p>
+          <div class="soft">
+            <div class="skills baris4" style="width: 85%; animation: soft85 3s;;">75%</div>
+          </div>
+          <p>Masih Bingung</p>
+          <div class="soft">
+            <div class="skills baris5" style="width: 60%; animation: soft60 3s;">60%</div>
+          </div>
+            <div class="container-cir">
+            <div class="column2">
+              <p>Videography</p>
+              <div class="circle-wrap">
+                <div class="circle">
+        
+                  <div class="mask full">
+                    <div class="fill" style="background-color: #084c61;"></div>
+                  </div>
+      
+                  <div class="mask half">
+                    <div class="fill" style="background-color: #084c61;"></div>
+                  </div>
+        
+                  <div class="inside-circle">
+                    80%
+                  </div>
+        
+                </div>
+                      
+              </div>
+            </div>
+            <div class="column2">
+            <p>Programming</p>
+              <div class="circle-wrap">
+                <div class="circle">
+        
+                  <div class="mask full">
+                    <div class="fill" style="background-color: #ffc857; transform: rotate(135deg); animation: hard75 ease-in-out 3s;"></div>
+                  </div>
+      
+                  <div class="mask half">
+                    <div class="fill" style="background-color: #ffc857; "></div>
+                  </div>
+        
+                  <div class="inside-circle">
+                    75%
+                  </div>
+        
+                </div>
+                      
+              </div>
+            </div>
+            <div class="column2">
+            <p>Office</p>
+              <div class="circle-wrap">
+                <div class="circle">
+        
+                  <div class="mask full">
+                    <div class="fill" style="background-color: #7cb518; transform: rotate(153deg); animation: hard85 ease-in-out 3s;"></div>
+                  </div>
+      
+                  <div class="mask half">
+                    <div class="fill" style="background-color: #7cb518;"></div>
+                  </div>
+        
+                  <div class="inside-circle">
+                    85%
+                  </div>
+        
+                </div>
+                      
+              </div>
+            </div>
+            <div class="column2">
+            <p>Office</p>
+              <div class="circle-wrap">
+                <div class="circle">
+        
+                  <div class="mask full">
+                    <div class="fill" style="background-color: #db3a34; transform: rotate(162deg); animation: fillc ease-in-out 3s;"></div>
+                  </div>
+      
+                  <div class="mask half">
+                    <div class="fill" style="background-color: #db3a34;"></div>
+                  </div>
+        
+                  <div class="inside-circle">
+                    90%
+                  </div>
+        
+                </div>
+                      
+              </div>
+            </div>
         </div>
         
       </div>
