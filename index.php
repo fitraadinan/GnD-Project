@@ -91,15 +91,14 @@
             <li><i class="fas fa-calendar-alt"></i> <p style="font-weight: bold;">Date of Birthday</p> 16 Juny 2000</li>
           </ul>
           <p class="aboutg">
-          Galih Saputra, biasa dipanggil Galih atau Gatra. Aku adalah mahasiswa S1 Teknik Komputer Fakultas Teknik Universitas Diponegoro.
-          Saya berpengalaman selama <b>4 tahun</b> di dunia Kekomputeran, khususnya pada <b>Network Engineering</b>.
-          Bidang-bidang yang saya kuasai seperti <b>Switching</b>, <b>Routing</b>, <b>Subnetting</b>, dan lain sebagainya.
-          Perangkat yang sudah pernah saya operasikan adalah produk dari <b>Mikrotik</b>, <b>Cisco</b>, <b>Aruba</b>, dan <b>Engenius</b>.
+          Galih Saputra, commonly called Galih or Gatra. I'm a student in Computer Engineering, Faculty of Engineering, Diponegoro University.
+          I have <b>4 years</b> experience in the computer world, especially in <b>Network Engineering</b>.
+          The fields that I control such as <b>Switching</b>, <b>Routing</b>, <b>Subnetting</b>, and so on.
+          The devices that I have operated are products from <b>Mikrotik</b>, <b>Cisco</b>, <b>Aruba</b>, and <b>Engenius</b>.
           <br>
           <br>
-          Selain pengalaman di bidang <b>Network Engineering</b>, saya juga berpengalaman pada bidang <b>Software Engineering</b>.
-          Fokusan saya pada <b>Software Engineering</b> adalah <b>Web Programming</b>, khususnya <b>PHP</b>, <b>Javascript</b>,
-          <b>HTML</b>, dan <b>CSS</b>.
+          In addition to experience in the field of <b>Network Engineering</b>, I also have experience in the field of <b>Software Engineering</b>.
+          My focus on <b>Software Engineering</b> is <b>Web Programming</b>, specifically <b>PHP</b>, <b>Javascript</b>, <b>HTML</b>, and <b>CSS</b>.
           </p>
         
           <p style="width: 20%; text-align: center; margin-top: -65px; margin-left: 100px; ">Back-End Developer</p>
@@ -119,9 +118,17 @@
           <li><i class="fas fa-envelope"></i> <p style="font-weight: bold;">Email</p> fanfitraadina@gmail.com</li>
         </ul>
 
-        <p class="aboutd">My name is <b>Fitra Adina Nuzulia</b>, you can call me <b>Dina</b>. I'm a student of <b>Computer Engineering, Faculty of Engineering, Diponegoro University</b>. I've been in the computer engineering for <b>two years</b> and lean towards <b>Software Engineering</b>. I'm currently studying <b>Web Programming</b> using <b>JavaScript, HTML, and CSS</b>. In addition to Web Programming, I also learned a little about making logos using <b>CorelDraw</b>.</p>
-        <p class="aboutd">I'm not only busy in the computer engineering, but I'm also <b>building a business</b> and <b>honing my hobbies</b>, namely <b>photography and videography</b>.</p>
-        <p style="width: 20%; text-align: center; float: right; margin-top: 190px; margin-right: -320px;">Front-End Developer</p>
+        <p class="aboutd">
+          My name is <b>Fitra Adina Nuzulia</b>, you can call me <b>Dina</b>. 
+          I'm a student of <b>Computer Engineering, Faculty of Engineering, Diponegoro University</b>. 
+          I've been in the computer engineering for <b>two years</b> and lean towards <b>Software Engineering</b>. 
+          I'm currently studying <b>Web Programming</b> using <b>JavaScript, HTML, and CSS</b>. 
+          In addition to Web Programming, I also learned a little about making logos using <b>CorelDraw</b>.
+          <br>
+          <br>
+          I'm not only busy in the computer engineering, but I'm also <b>building a business</b> and <b>honing my hobbies</b>, 
+          namely <b>photography and videography</b>.</p>
+        <p style="width: 20%; text-align: center; float: right; margin-top: 280px; margin-right: -320px;">Front-End Developer</p>
       </div>
     </div>
   </div>
@@ -171,19 +178,18 @@
           <div class="soft">
             <div class="skills baris2" style="width: 85%; animation: soft85 3s;">85%</div>
           </div>
+          <p>Office</p>
+          <div class="soft">
+            <div class="skills baris3" style="width: 90%; animation: soft90 3s;">90%</div>
+          </div>
+          <p>Coaching</p>
+          <div class="soft">
+            <div class="skills baris4" style="width: 80%; animation: soft80 3s;;">80%</div>
+          </div>
           <p>Writing</p>
           <div class="soft">
-            <div class="skills baris3" style="width: 75%; animation: soft75 3s;">75%</div>
+            <div class="skills baris5" style="width: 75%; animation: soft75 3s;">75%</div>
           </div>
-          <p>?</p>
-          <div class="soft">
-            <div class="skills baris4" style="width: 75%; animation: soft75 3s;;">75%</div>
-          </div>
-          <p>?</p>
-          <div class="soft">
-            <div class="skills baris5" style="width: 60%; animation: soft60 3s;">60%</div>
-          </div>
-          
         </div>
       </div>
 
@@ -206,9 +212,7 @@
                   <div class="inside-circle">
                     80%
                   </div>
-        
-                </div>
-                      
+                </div>     
               </div>
             </div>
             <div class="column2">
@@ -227,18 +231,16 @@
                   <div class="inside-circle">
                     60%
                   </div>
-        
                 </div>
-                      
               </div>
             </div>
             <div class="column2">
-            <p>Cisco</p>
+            <p>HTML&CSS</p>
               <div class="circle-wrap">
                 <div class="circle">
         
                   <div class="mask full">
-                    <div class="fill" style="background-color: #7cb518; transform: rotate(144deg); animation: hard80 ease-in-out 3s;"></div>
+                    <div class="fill" style="background-color: #7cb518; transform: rotate(117deg); animation: hard65 ease-in-out 3s;"></div>
                   </div>
       
                   <div class="mask half">
@@ -246,20 +248,18 @@
                   </div>
         
                   <div class="inside-circle">
-                    80%
+                    65%
                   </div>
-        
                 </div>
-                      
               </div>
             </div>
             <div class="column2">
-            <p>Office</p>
+            <p>Python</p>
               <div class="circle-wrap">
                 <div class="circle">
         
                   <div class="mask full">
-                    <div class="fill" style="background-color: #db3a34; transform: rotate(162deg); animation: hard90 ease-in-out 3s;"></div>
+                    <div class="fill" style="background-color: #db3a34; transform: rotate(117deg); animation: hard65 ease-in-out 3s;"></div>
                   </div>
       
                   <div class="mask half">
@@ -267,11 +267,9 @@
                   </div>
         
                   <div class="inside-circle">
-                    90%
+                    65%
                   </div>
-        
-                </div>
-                      
+                </div>   
               </div>
             </div>
         </div>
@@ -308,32 +306,37 @@
           <h1>Hard Skills</h1>
           <p>Web Programming</p>
           <div class="soft">
-            <div class="skills baris1" style="width: 75%; animation: soft75 3s;">75%</div>
-          </div>
-          <p>Videography</p>
-          <div class="soft">
-            <div class="skills baris2" style="width: 85%; animation: soft85 3s;">85%</div>
-          </div>
-          <p>Writing</p>
-          <div class="soft">
-            <div class="skills baris3" style="width: 75%; animation: soft75 3s;">75%</div>
+            <div class="skills baris1" style="width: 70%; animation: soft70 3s;">70%</div>
           </div>
           <p>Social Media Management</p>
           <div class="soft">
-            <div class="skills baris4" style="width: 85%; animation: soft85 3s;;">75%</div>
+            <div class="skills baris2" style="width: 75%; animation: soft75 3s;">75%</div>
           </div>
-          <p>Masih Bingung</p>
+          <p>Office</p>
           <div class="soft">
-            <div class="skills baris5" style="width: 60%; animation: soft60 3s;">60%</div>
+            <div class="skills baris3" style="width: 85%; animation: soft85 3s;">85%</div>
           </div>
-            <div class="container-cir">
+          <p>Videography</p>
+          <div class="soft">
+            <div class="skills baris4" style="width: 85%; animation: soft85 3s;;">85%</div>
+          </div>
+          <p>Writing</p>
+          <div class="soft">
+            <div class="skills baris5" style="width: 75%; animation: soft75 3s;">75%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="lang">
+        <h1>Language Programming</h1>
+          <div class="container-cir">
             <div class="column2">
-              <p>Videography</p>
+              <p>HTML&CSS</p>
               <div class="circle-wrap">
                 <div class="circle">
         
                   <div class="mask full">
-                    <div class="fill" style="background-color: #084c61;"></div>
+                    <div class="fill" style="background-color: #084c61; transform: rotate(117deg); animation: hard75 ease-in-out 3s;"></div>
                   </div>
       
                   <div class="mask half">
@@ -341,20 +344,18 @@
                   </div>
         
                   <div class="inside-circle">
-                    80%
+                    65%
                   </div>
-        
                 </div>
-                      
               </div>
             </div>
             <div class="column2">
-            <p>Programming</p>
+            <p>Java</p>
               <div class="circle-wrap">
                 <div class="circle">
         
                   <div class="mask full">
-                    <div class="fill" style="background-color: #ffc857; transform: rotate(135deg); animation: hard75 ease-in-out 3s;"></div>
+                    <div class="fill" style="background-color: #ffc857; transform: rotate(108deg); animation: hard60 ease-in-out 3s;"></div>
                   </div>
       
                   <div class="mask half">
@@ -362,20 +363,18 @@
                   </div>
         
                   <div class="inside-circle">
-                    75%
+                    60%
                   </div>
-        
                 </div>
-                      
               </div>
             </div>
             <div class="column2">
-            <p>Office</p>
+            <p>JavaScript</p>
               <div class="circle-wrap">
                 <div class="circle">
         
                   <div class="mask full">
-                    <div class="fill" style="background-color: #7cb518; transform: rotate(153deg); animation: hard85 ease-in-out 3s;"></div>
+                    <div class="fill" style="background-color: #7cb518; transform: rotate(90deg); animation: hard50 ease-in-out 3s;"></div>
                   </div>
       
                   <div class="mask half">
@@ -383,20 +382,18 @@
                   </div>
         
                   <div class="inside-circle">
-                    85%
+                    50%
                   </div>
-        
                 </div>
-                      
               </div>
             </div>
             <div class="column2">
-            <p>Office</p>
+            <p>Python</p>
               <div class="circle-wrap">
                 <div class="circle">
         
                   <div class="mask full">
-                    <div class="fill" style="background-color: #db3a34; transform: rotate(162deg); animation: fillc ease-in-out 3s;"></div>
+                    <div class="fill" style="background-color: #db3a34; transform: rotate(90deg); animation: hard50 ease-in-out 3s;"></div>
                   </div>
       
                   <div class="mask half">
@@ -404,17 +401,13 @@
                   </div>
         
                   <div class="inside-circle">
-                    90%
+                    50%
                   </div>
-        
                 </div>
-                      
               </div>
             </div>
+          </div>
         </div>
-        
-      </div>
-    </div>
     
   </div>
 
@@ -440,8 +433,8 @@
             <span class="title">Al Muharrik</span>
           </div>
           <p>
-            Mas'ul Al Muharrik 2021<br />
-            Teknik Komputer Fakultas Teknik Universitas Diponegoro
+            <b>Head of Al Muharrik 2021</b><br />
+            Computer Engineering, Faculty of Enigneering, Diponegoro University
           </p>
         </section>
       </div>
@@ -452,8 +445,8 @@
             <span class="title">Izzati</span>
           </div>
           <p>
-            Kepala Divisi Bidang Kaderisasi Izzati Gen 27<br />
-            Fakultas Teknik Universitas Diponegoro
+            <b>Head Division of Kaderisasi</b><br />
+            Faculty of Engineering, Diponegoro University
           </p>
         </section>
       </div>
@@ -463,7 +456,7 @@
           <div class="details">
             <span class="title">Inspirator Muda</span>
           </div>
-          <p>Member of Inspirator Muda Indonesia</p>
+          <p><b>Member of Inspirator Muda Indonesia</b></p>
         </section>
       </div>
       <div class="row row-2">
@@ -472,8 +465,8 @@
           <div class="details">
             <span class="title">Rebana Diponegoro University</span>
           </div>
-          <p>Staff Muda bidang PSDM Rebana Diponegoro University 2020<br />
-            Universitas Diponegoro</p>
+          <p><b>Staff of PSDM</b><br />
+            Diponegoro University</p>
         </section>
       </div>
       <div class="row row-1">
@@ -482,7 +475,8 @@
           <div class="details">
             <span class="title">Karya Salemba Empat</span>
           </div>
-          <p>Beswan sekaligus Staff Bidang Edukasi dan Teknologi Karya Salemba Empat Universitas Diponegoro</p>
+          <p><b>Grantee and Staff of Edukasi dan Teknologi</b><br />
+            Karya Salemba Empat Diponegoro University</p>
         </section>
       </div>
       <div class="row row-2">
@@ -492,8 +486,8 @@
             <span class="title">Izzati</span>
           </div>
           <p>
-            <span>Staff Muda Bidang Kaderisasi Izzati Gen 26</span> <br />
-            Fakultas Teknik Universitas Diponegoro</p>
+            <span><b>Staff of Kaderisasi</b></span> <br />
+            Faculty of Engineering, Diponegoro University</p>
         </section>
       </div>
       <div class="row row-1">
@@ -502,8 +496,8 @@
           <div class="details">
             <span class="title">Al Muharrik</span>
           </div>
-          <p>Staff Muda Bidang Mentoring Al Muharrik 2020<br />
-            Teknik Komputer Fakultas Teknik Universitas Diponegoro</p>
+          <p><b>Staff of Mentoring</b><br />
+            Computer Engineering, Faculty of Engineering, Diponegoro University</p>
         </section>
       </div>
       <div class="row row-2">
@@ -513,8 +507,8 @@
             <span class="title">Himpunan Mahasiswa Teknik Komputer</span>
           </div>
           <p>
-            Staff Bidang PSDM Himpunan Mahasiswa Teknik Komputer 2020<br />
-            Teknik Komputer Fakultas Teknik Universitas Diponegoro
+            <b>Staff of PSDM</b><br />
+            Computer Engineering, Faculty of Engineering, Diponegoro University
           </p>
         </section>
       </div>
@@ -524,8 +518,8 @@
           <div class="details">
             <span class="title">Andesbon Reborn</span>
           </div>
-          <p>Sekretaris Remaja Rukun Warga "Andesbon Reborn"<br />
-            Desa Kebonmanis RW3 Mangunsari Gunungpati</p>
+          <p><b>Secretary of the Youth Community Association</b><br />
+             Kebonmanis Village RW 3 Mangunsari Gunungpati</p>
         </section>
       </div>
       <div class="row row-2">
@@ -535,11 +529,30 @@
             <span class="title">Tunas Muda</span>
           </div>
           <p>
-            Ketua Posyandu Remaja "Tunas Muda"<br />
-            Desa Kebonmanis RW3 Mangunsari Gunungpati</p>
+            <b>Head of Youth Posyandu</b><br />
+            Kebonmanis Village RW 3 Mangunsari Gunungpati</p>
         </section>
       </div>
     </div>
+    <h1>Comittee</h1>
+    <div class="wrapper">
+      <div class="center-line">
+        <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon">2021</i>
+          <div class="details">
+            <span class="title">Al Muharrik</span>
+          </div>
+          <p>
+            <b>Head of Al Muharrik 2021</b><br />
+            Computer Engineering, Faculty of Enigneering, Diponegoro University
+          </p>
+        </section>
+      </div>
+    </div>
+
     <div class="containerexp">
     <p class="nama" style="width: 250px;">Fitra Adina Nuzulia</p>
     <h1>Organization</h1>
@@ -554,8 +567,8 @@
             <span class="title">Al Muharrik</span>
           </div>
           <p>
-            Kepala Bidang Annisa Al Muharrik 2021<br />
-            Teknik Komputer Fakultas Teknik Universitas Diponegoro
+            <b>Head of Annisa</b><br />
+            Computer Engineering, Faculty of Engineering, Diponegoro University
           </p>
         </section>
       </div>
@@ -566,8 +579,8 @@
             <span class="title">Himpunan Mahasiswa Teknik Komputer</span>
           </div>
           <p>
-            Bendahara Bidang Minat, Bakat, Kegemaran Himpunan Mahasiswa Teknik Komputer 2021<br />
-            Teknik Komputer Fakultas Teknik Universitas Diponegoro
+            <b>Treasurer of Minat, Bakat, dan Kegemaran</b><br />
+            Computer Engineering, Faculty of Engineering, Diponegoro University
           </p>
         </section>
       </div>
@@ -577,8 +590,8 @@
           <div class="details">
             <span class="title">Al Muharrik</span>
           </div>
-          <p>Staff Muda Bidang Annisa Al Muharrik 2020<br />
-            Teknik Komputer Fakultas Teknik Universitas Diponegoro</p>
+          <p><b>Staff of Annisa</b><br />
+            Computer Engineering, Faculty of Engineering, Diponegoro University</p>
         </section>
       </div>
       <div class="row row-2">
@@ -587,8 +600,46 @@
           <div class="details">
             <span class="title">Himpunan Mahasiswa Teknik Komputer</span>
           </div>
-          <p>Staff Muda Bidang Minat, Bakat, dan Kegemaran<br />
-            Teknik Komputer Fakultas Teknik Universitas Diponegoro</p>
+          <p><b>Staff of Minat, Bakat, dan Kegemaran</b><br />
+            Computer Engineering, Faculty of Engineering, Diponegoro University</p>
+        </section>
+      </div>
+    </div>
+    <h1>Comittee</h1>
+    <div class="wrapper">
+      <div class="center-line">
+        <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon">2020</i>
+          <div class="details">
+            <span class="title">IDEAS 5.0 BEM UNDIP</span>
+          </div>
+          <p>
+            <b>Staff of Licensing and Security</b><br />
+            BEM Undip</p>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">CYBER TEKKOM</span>
+          </div>
+          <p><b>Staff of Event</b><br />
+            Computer Engineering, Faculty of Engineering, Diponegoro University</p>
+        </section>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">POR TEKKOM</span>
+          </div>
+          <p>
+            <b>Staff of Treasurer</b><br />
+            Computer Engineering, Faculty of Engineering, Diponegoro University</p>
         </section>
       </div>
     </div>

@@ -310,7 +310,7 @@ body {
   width: 900px;
 }
 .dina {
-  padding-bottom: 60px;
+  padding-bottom: 10px;
   display: inline-block;
 }
 
@@ -452,50 +452,33 @@ body {
 .lang {
   text-align: center;
   padding-top: 10px;
-  border: 1px solid red;
 }
 .lang h1 {
-  padding: 10px;
+  padding: 20px;
 }
 @keyframes soft60 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 60%;
-  }
+  0% {width: 0%;}
+  100% {width: 60%;}
 }
 @keyframes soft65 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 65%;
-  }
+  0% {width: 0%;}
+  100% {width: 65%;}
+}
+@keyframes soft70 {
+  0% {width: 0%;}
+  100% {width: 70%;}
 }
 @keyframes soft75 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 75%;
-  }
+  0% {width: 0%;}
+  100% {width: 75%;}
 }
 @keyframes soft80 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 80%;
-  }
+  0% {width: 0%;}
+  100% {width: 80%;}
 }
 @keyframes soft85 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 85%;
-  }
+  0% {width: 0%;}
+  100% {width: 85%;}
 }
 
 /* Circular */
@@ -583,6 +566,30 @@ body {
     transform: rotate(162deg);
   }
 }
+@keyframes hard70 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(126deg);
+  }
+}
+@keyframes hard65 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(117deg);
+  }
+}
+@keyframes hard50 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
 
 .circle-wrap .inside-circle {
   width: 120px;
@@ -654,7 +661,7 @@ body {
   position: absolute;
   height: 100%;
   width: 4px;
-  background: rgb(62, 223, 48);
+  background: rgb(33, 122, 25);
   left: 50%;
   top: 20px;
   transform: translateX(-50%);
@@ -665,15 +672,21 @@ body {
 .wrapper .row-1 {
   justify-content: flex-start;
 }
+.wrapper .row p {
+font-size: 13px;
+line-height: 20px;
+}
 .wrapper .row-2 {
   justify-content: flex-end;
 }
 .wrapper .row section {
   background: #f2f2f2;
   border-radius: 5px;
-  width: calc(50% - 40px);
+  width: calc(50% - 180px);
   position: relative;
+  height: fit-content;
   z-index: 1;
+  margin: 0 140px;
 }
 .wrapper .row section::before {
   position: absolute;
@@ -725,9 +738,9 @@ body {
   background: rgb(62, 223, 48);
 }
 .row section .details .title {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
-  padding: 12px 20px;
+  padding: 13px 20px;
   color: white;
 }
 .title span {
@@ -735,7 +748,7 @@ body {
 }
 .row section p {
   margin: 10px 0 17px 0;
-  padding: 20px;
+  padding: 0px 10px;
 }
 .row section .bottom a {
   text-decoration: none;
@@ -743,8 +756,8 @@ body {
   color: #fff;
   padding: 7px 15px;
   border-radius: 5px;
-  /* font-size: 17px; */
-  font-weight: 400;
+  font-size: 12px;
+  /* font-weight: 400; */
   transition: all 0.3s ease;
 }
 .row section .bottom a:hover {
