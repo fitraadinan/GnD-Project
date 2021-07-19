@@ -633,7 +633,7 @@ body {
   margin-top: 15px;
   text-align: center;
   background: white;
-  border-bottom: 3px solid rgb(62, 223, 48);
+  border-bottom: 3px solid #0ead69;
   line-height: 40px;
   margin-bottom: 20px;
   width: 250px;
@@ -648,7 +648,7 @@ body {
 }
 ::selection {
   color: #fff;
-  background: rgb(62, 223, 48);
+  background:#0ead69;
 }
 .wrapper {
   max-width: 1080px;
@@ -661,10 +661,10 @@ body {
   position: absolute;
   height: 100%;
   width: 4px;
-  background: rgb(33, 122, 25);
   left: 50%;
   top: 20px;
   transform: translateX(-50%);
+  animation: experience 10s infinite;
 }
 .wrapper .row {
   display: flex;
@@ -693,7 +693,7 @@ line-height: 20px;
   content: "";
   height: 15px;
   width: 15px;
-  background: rgb(62, 223, 48);
+  animation: experience 10s infinite;
   top: 28px;
   z-index: 0;
   transform: rotate(45deg);
@@ -712,7 +712,7 @@ line-height: 20px;
   width: 40px;
   text-align: center;
   line-height: 40px;
-  color: rgb(62, 223, 48);
+  color: #0ead69;
   font-size: 17px;
   font-style: normal;
 }
@@ -735,7 +735,7 @@ line-height: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: rgb(62, 223, 48);
+  animation: experience 10s infinite;
 }
 .row section .details .title {
   font-size: 17px;
@@ -762,4 +762,15 @@ line-height: 20px;
 }
 .row section .bottom a:hover {
   transform: scale(0.97);
+}
+@keyframes experience{
+  0%{background: #1a7431;}
+  12%{background: #208b3a;}
+  24%{background: #25a244;}
+  36%{background: #2dc653;}
+  48%{background: #4ad66d;}
+  60%{background: #2dc653;}
+  72%{background: #25a244;}
+  84%{background: #208b3a;}
+  100%{background: #1a7431;}
 }

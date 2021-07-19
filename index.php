@@ -534,7 +534,7 @@
         </section>
       </div>
     </div>
-    <h1>Comittee</h1>
+    <h1 style="border-top: 3px solid #0ead69;">Committee</h1>
     <div class="wrapper">
       <div class="center-line">
         <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
@@ -605,7 +605,7 @@
         </section>
       </div>
     </div>
-    <h1>Comittee</h1>
+    <h1 style="border-top: 3px solid #0ead69;">Committee</h1>
     <div class="wrapper">
       <div class="center-line">
         <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
@@ -638,11 +638,68 @@
             <span class="title">POR TEKKOM</span>
           </div>
           <p>
-            <b>Staff of Treasurer</b><br />
+            <b>Treasurer</b><br />
             Computer Engineering, Faculty of Engineering, Diponegoro University</p>
         </section>
       </div>
     </div>
+
+    <h1 style="border-top: 3px solid #0ead69;">Training</h1>
+    <div class="wrapper">
+      <div class="center-line">
+        <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon">2021</i>
+          <div class="details">
+            <span class="title">Progate</span>
+          </div>
+          <p>
+            <b>SQL</b><br />
+            </p>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">Himpunan Mahasiswa Teknik Komputer</span>
+          </div>
+          <p><b>Leadership Training</b><br />
+            Computer Engineering, Faculty of Engineering, Diponegoro University</p>
+        </section>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon">2019</i>
+          <div class="details">
+            <span class="title">Al-Muharrik Teknik Komputer</span>
+          </div>
+          <p><b>Training Rohis I</b><br />
+            Computer Engineering, Faculty of Engineering, Diponegoro University</p>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">Himpunan Mahasiswa Teknik Komputer</span>
+          </div>
+          <p><b>LKMM Pra Dasar</b><br />
+            Computer Engineering, Faculty of Engineering, Diponegoro University</p>
+        </section>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">Himpunan Mahasiswa Teknik Komputer</span>
+          </div>
+          <p><b>Exposure</b><br />
+            Computer Engineering, Faculty of Engineering, Diponegoro University</p>
+        </section>
+      </div>
     </div>
   </div>
 </section>
