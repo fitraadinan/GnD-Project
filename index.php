@@ -543,12 +543,190 @@
         <section>
           <i class="icon">2021</i>
           <div class="details">
-            <span class="title">Al Muharrik</span>
+            <span class="title">Mosaic FT</span>
           </div>
           <p>
-            <b>Head of Al Muharrik 2021</b><br />
+            <b>Member of Event</b><br />
+            Izzati, Faculty of Enigneering, Diponegoro University
+          </p>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">International Scholarship Seminar</span>
+          </div>
+          <p>
+            <b>Head of Event</b><br />
+            Karya Salemba Empat, Diponegoro University
+          </p>
+        </section>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">Community and Development</span>
+          </div>
+          <p>
+            <b>Head of Equipment</b><br />
+            Community and Development with PLN, Karya Salemba Empat, Diponegoro University
+          </p>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">Mosaic FT</span>
+          </div>
+          <p>
+            <b>Moderator</b><br />
+            Izzati, Faculty of Enigneering, Diponegoro University
+          </p>
+        </section>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">Tabligh Akbar READY</span>
+          </div>
+          <p>
+            <b>Chairman of Event</b><br />
+            Rebana Diponegoro University, Diponegoro University
+          </p>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section>
+          <i class="icon">2020</i>
+          <div class="details">
+            <span class="title">SIGMA</span>
+          </div>
+          <p>
+            <b>Chairman of Event</b><br />
+            Karya Salemba Empat, Diponegoro University
+          </p>
+        </section>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">Tabligh Akbar Al Muharrik</span>
+          </div>
+          <p>
+            <b>Head of Event</b><br />
             Computer Engineering, Faculty of Enigneering, Diponegoro University
           </p>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">GOM</span>
+          </div>
+          <p>
+            <b>Head of Event</b><br />
+            Computer Engineering, Faculty of Enigneering, Diponegoro University
+          </p>
+        </section>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">LKMMPD HIMASKOM</span>
+          </div>
+          <p>
+            <b>Main Secretary of Event</b><br />
+            Computer Engineering, Faculty of Enigneering, Diponegoro University
+          </p>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">EXPOSURE HIMASKOM</span>
+          </div>
+          <p>
+            <b>Head of Public Relation</b><br />
+            Computer Engineering, Faculty of Enigneering, Diponegoro University
+          </p>
+        </section>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon">2019</i>
+          <div class="details">
+            <span class="title">CYBER AEGIS</span>
+          </div>
+          <p>
+            <b>Chairman of Event</b><br />
+            Computer Engineering, Faculty of Enigneering, Diponegoro University
+          </p>
+        </section>
+      </div>
+    </div>
+
+    <h1 style="border-top: 3px solid #0ead69;">Training</h1>
+    <div class="wrapper">
+      <div class="center-line">
+        <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon">2021</i>
+          <div class="details">
+            <span class="title">Muda Inspiratif</span>
+          </div>
+          <p>
+            <b>How to be Master of Ceremony</b><br />
+            </p>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">Muda Inspiratif</span>
+          </div>
+          <p><b>3 Ways to be Leader in Pandemic</b><br />
+          </p>
+        </section>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">Progate</span>
+          </div>
+          <p><b>SQL</b><br />
+            </p>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">Progate</span>
+          </div>
+          <p><b>HTML and CSS</b><br />
+            </p>
+        </section>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon"></i>
+          <div class="details">
+            <span class="title">Himpunan Mahasiswa Teknik Komputer</span>
+          </div>
+          <p><b>Exposure</b><br />
+            Computer Engineering, Faculty of Engineering, Diponegoro University</p>
         </section>
       </div>
     </div>
