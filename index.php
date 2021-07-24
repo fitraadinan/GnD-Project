@@ -721,7 +721,60 @@
       </div>
       <div class="row row-1">
         <section>
-          <i class="icon"></i>
+          <i class="icon">2020</i>
+          <div class="details">
+            <span class="title">Element 2020</span>
+          </div>
+          <p><b>Training Rohis 2</b><br />
+          Faculty of Engineering, Diponegoro University
+            </p>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">BEM FT</span>
+          </div>
+          <p><b>LKMM Dasar FT</b><br />
+          Faculty of Engineering, Diponegoro University
+            </p>
+        </section>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">Muda Inspiratif</span>
+          </div>
+          <p><b>LPC for ICL</b><br />
+          Muda Inspiratif, Indonesia
+            </p>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section>
+          <i class="icon">2019</i>
+          <div class="details">
+            <span class="title">Al Muharrik</span>
+          </div>
+          <p><b>Training Rohis 1</b><br />
+            Computer Engineering, Faculty of Engineering, Diponegoro University</p>
+        </section>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon fas fa-circle"></i>
+          <div class="details">
+            <span class="title">Himpunan Mahasiswa Teknik Komputer</span>
+          </div>
+          <p><b>LKMM Pra Dasar</b><br />
+            Computer Engineering, Faculty of Engineering, Diponegoro University</p>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section>
+          <i class="icon fas fa-circle"></i>
           <div class="details">
             <span class="title">Himpunan Mahasiswa Teknik Komputer</span>
           </div>
@@ -882,5 +935,19 @@
   </div>
 </section>
 
+<section id="contact">
+  <div class="containerdst">
+    <div class="titlecontact">
+      <h2><span>Contact Us</span></h2>
+    </div>
+    <div class="contactg">
+      <h1>Galih Saputra</h1>
+      <ul>
+        <li><i class="fas fa-phone"></i><b> Phone:</b>085712247539</li>
+      </ul>
+    </div>
+  </div>
+
+</section>
   </body>
 </html>
