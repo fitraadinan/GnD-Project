@@ -15,6 +15,7 @@
 
   </head>
   <body>
+
     <div class="sidebar">
 
       <ul>
@@ -43,7 +44,7 @@
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#contact">
             <span class="icon"><i class="fas fa-address-book"></i></span>
             <span class="title">Contact</span>
           </a>
@@ -55,7 +56,7 @@
         <ul>
           <li><a class="active" href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
     
@@ -942,10 +943,18 @@
     </div>
     <div class="contactg">
       <h1>Galih Saputra</h1>
-      <ul>
-        <li><i class="fas fa-phone"></i><b> Phone:</b>085712247539</li>
-      </ul>
+      <table class="tablecontact">
+        <tr>
+          <td><a href="#"><i class="fas fa-phone" style="background: #25D366; padding: 8px 9px; border: 1px solid #25D366"></i></a><br /><b>Phone</b><br />+6285712247539</td>
+          <td><a href="#"><i class="fas fa-envelope" style="background: #BB001B; padding: 8px 9px; border: 1px solid #BB001B"></i></a><br /><b>Email</b><br />gatra881@gmail.com</td>
+          <td><a href="#"><i class="fab fa-whatsapp" style="background: #25D366; padding: 6px 9px; border: 1px solid #25D366; font-size: 30px; margin-bottom: 10px"></i></a><br /><b>WhatsApp</b><br />+6285712247539</td>
+          <td><a href="#"><i class="fab fa-instagram" style="background: #F56040; padding: 6px 9px; border: 1px solid #F56040; font-size: 30px; margin-bottom: 10px"></i></a><br /><b>Instagram</b><br />@gatra881</td>
+          <td style="padding-top: 17px"><a href="#"><i class="fab fa-line" style="color: #00c300; background: white; font-size: 50px; margin-bottom: 6px"></i></a><br /><b>Line</b><br />magatras13</td>
+          <td><a href="#"><i class="fab fa-github" style="background: #6e5494; padding: 6px 9px; border: 1px solid #6e5494; font-size: 30px; margin-bottom: 10px"></i></a><br /><b>Github</b><br />@gatra881</td>
+        </tr>
+    </table>
     </div>
+
   </div>
 
 </section>
