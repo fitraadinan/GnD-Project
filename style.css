@@ -798,14 +798,14 @@ line-height: 20px;
 }
 #contact td{
   padding: 20px;
-  border: 1px solid thistle;
+  border: 1px solid rgb(104, 97, 104);
   border-radius: 5px;
   text-align: center;
   line-height: 20px;
   font-size: 15px;
+  width: 170px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background: white;
-  box-shadow: 4px 4px rgb(61, 58, 58);
 }
 .tablecontact{
   border-spacing: 20px;
@@ -822,4 +822,88 @@ line-height: 20px;
 }
 .contactg{
   margin-top: 50px;
+}
+
+.contactg h1 {
+  margin-left: 20px;
+}
+
+.contactg table td {
+  box-shadow: 4px 4px rgb(61, 58, 58);
+  animation: kilap 2s infinite;
+}
+
+.contactd h1 {
+  text-align: end;
+  margin-right: 20px;
+}
+
+.contactd table {
+  padding-left: 100px;
+  margin-bottom: 50px;
+}
+
+.contactd table td {
+  box-shadow: -4px 4px rgb(61, 58, 58);
+  animation: kilap2 2s infinite;
+}
+
+@keyframes kilap {
+  0% {
+    box-shadow: 4px 4px rgb(61, 58, 58);
+    
+  }
+  50% {
+    box-shadow: 4px 4px rgb(58, 192, 92);
+  }
+  100% {
+    box-shadow: 4px 4px rgb(61, 58, 58);
+  }
+}
+@keyframes kilap2 {
+  0% {
+    box-shadow: -4px 4px rgb(61, 58, 58);
+    
+  }
+  50% {
+    box-shadow: -4px 4px rgb(58, 192, 92);
+  }
+  100% {
+    box-shadow: -4px 4px rgb(61, 58, 58);
+  }
+}
+
+.masukan {
+  margin: 20px;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.masukan h3 {
+  margin-bottom: 10px;
+}
+
+.masukan textarea {
+  margin: 5px 0 15px 0;
+  width: 250px;
+}
+
+.masukan input {
+  line-height: 25px;
+  margin: 5px 0 15px 0;
+  width: 250px;
+}
+
+.masukan #button{
+  width: 100px; 
+  padding: 5px; 
+  color: white; 
+  background: #0ead69; 
+  border-radius: 5px; 
+  font-family: monospace;
+}
+
+.masukan #button:hover {
+  cursor: pointer;
+  background: #1fc779;
 }

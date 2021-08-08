@@ -51,8 +51,8 @@
         </li>
       </ul>
     </div>
-    <div class="navbar" class="toggle" onclick="toggleMenu()">
-        <img src="GND.png">
+    <div class="navbar">
+        <img src="GND.png" class="toggle" onclick="toggleMenu()">
         <ul>
           <li><a class="active" href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -949,11 +949,48 @@
           <td><a href="#"><i class="fas fa-envelope" style="background: #BB001B; padding: 8px 9px; border: 1px solid #BB001B"></i></a><br /><b>Email</b><br />gatra881@gmail.com</td>
           <td><a href="#"><i class="fab fa-whatsapp" style="background: #25D366; padding: 6px 9px; border: 1px solid #25D366; font-size: 30px; margin-bottom: 10px"></i></a><br /><b>WhatsApp</b><br />+6285712247539</td>
           <td><a href="#"><i class="fab fa-instagram" style="background: #F56040; padding: 6px 9px; border: 1px solid #F56040; font-size: 30px; margin-bottom: 10px"></i></a><br /><b>Instagram</b><br />@gatra881</td>
-          <td style="padding-top: 17px"><a href="#"><i class="fab fa-line" style="color: #00c300; background: white; font-size: 50px; margin-bottom: 6px"></i></a><br /><b>Line</b><br />magatras13</td>
+          <td><a href="#"><i class="fab fa-line" style="color: #00c300; background: white; font-size: 50px; margin-bottom: 6px"></i></a><br /><b>Line</b><br />magatras13</td>
           <td><a href="#"><i class="fab fa-github" style="background: #6e5494; padding: 6px 9px; border: 1px solid #6e5494; font-size: 30px; margin-bottom: 10px"></i></a><br /><b>Github</b><br />@gatra881</td>
         </tr>
     </table>
     </div>
+    <div class="contactd">
+      <h1>Fitra Adina Nuzulia</h1>
+      <table class="tablecontact">
+        <tr>
+          <td><a href="#"><i class="fab fa-github" style="background: #6e5494; padding: 6px 9px; border: 1px solid #6e5494; font-size: 30px; margin-bottom: 10px"></i></a><br /><b>Github</b><br />@fitraadinan</td>
+          <td><a href="#"><i class="fab fa-line" style="color: #00c300; background: white; font-size: 50px; margin-bottom: 6px"></i></a><br /><b>Line</b><br />fitraadinan</td>
+          <td><a href="#"><i class="fab fa-instagram" style="background: #F56040; padding: 6px 9px; border: 1px solid #F56040; font-size: 30px; margin-bottom: 10px"></i></a><br /><b>Instagram</b><br />@ftraadinan</td> 
+          <td><a href="#"><i class="fab fa-whatsapp" style="background: #25D366; padding: 6px 9px; border: 1px solid #25D366; font-size: 30px; margin-bottom: 10px"></i></a><br /><b>WhatsApp</b><br />+62816662367</td>
+          <td><a href="#"><i class="fas fa-envelope" style="background: #BB001B; padding: 8px 9px; border: 1px solid #BB001B"></i></a><br /><b>Email</b><br />fanfitraadina@gmail.com</td>
+          <td><a href="#"><i class="fas fa-phone" style="background: #25D366; padding: 8px 9px; border: 1px solid #25D366"></i></a><br /><b>Phone</b><br />+6816662367</td>
+        </tr>
+    </table>
+    </div>
+
+    <div class="masukan">
+      <h3>Please Comment for our Website...</h3>
+      <form action="comment.php" method="post" >
+        <label for="nama" id="label">Name</label>
+        <br>
+        <input type="text" name="nama" id="nama" placeholder="Type your Name">
+        <br>
+
+        <label for="email">Email</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Type your Email">
+        <br>
+
+        <label for="ks">Critics & Suggestion</label>
+        <br>
+        <textarea name="ks" id="ks" cols="30" rows="10" placeholder="Type your Message"></textarea>
+        <br>
+
+        <input type="submit" value="Send Now" id="button">
+      </form>
+
+    </div>
+    
 
   </div>
 
